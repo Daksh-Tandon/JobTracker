@@ -1,0 +1,60 @@
+
+li{
+  list-style: none;
+  color:white;
+
+}
+/* Home Page */
+
+body{
+    background: #f8f9fa;
+}
+
+/* Hero Image */
+
+.hero-image{
+    width: 500px;
+    max-width: 90%;
+    margin-top: 40px;
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Hero Content */
+
+.hero-content{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 15px;
+}
+
+.hero-subtitle{
+    font-size: 1.2rem;
+    color: #6c757d;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* Floating Animation */
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+
+}
